@@ -50,7 +50,18 @@ public class ReadConfig {
 		return IEPath;
 				
 	}
-	
+	public String getAccoutnumber() {
+		String AccountNumber=prop.getProperty("acctno");
+		return AccountNumber;
+	}
+	public String getAmount() {
+		String Amount=prop.getProperty("ammount");
+		return Amount;		
+	}
+	public String getDescription() {
+		String Description=prop.getProperty("descp");
+		return Description;	
+	}
 	
 	
 

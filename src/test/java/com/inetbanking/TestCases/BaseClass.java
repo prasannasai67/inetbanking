@@ -26,6 +26,10 @@ public class BaseClass {
 	public String baseURL = readconfig.getApplicationURL();
 	public String username = readconfig.getUsername();
 	public String password = readconfig.getPassword();
+	public String acctno= readconfig.getAccoutnumber();
+	public String ammount=readconfig.getAmount();
+	public String descp= readconfig.getDescription();
+	
 	public static WebDriver driver;
 	public static Logger logger;
 

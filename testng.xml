@@ -10,9 +10,10 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.inetbanking.TestCases.TC_LoginTest_001" />
+			<!-- <class name="com.inetbanking.TestCases.TC_LoginTest_001" />  -->
 			<!-- <class name="com.inetbanking.TestCases.TC_LoginDDT_002" /> -->
-			<class name="com.inetbanking.TestCases.TC_addcustomer_003" />
+			<!--<class name="com.inetbanking.TestCases.TC_addcustomer_003" />  -->
+			<class name="com.inetbanking.TestCases.TC_Deposit_004" />
 		</classes>
 	</test>
 </suite> 

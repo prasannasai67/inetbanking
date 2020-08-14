@@ -7,13 +7,13 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.inetbanking.TestCases.TC_addcustomer_003">
+      <class name="com.inetbanking.TestCases.TC_Deposit_004">
         <methods>
           <include name="setup"/>
-          <include name="addnewcustomer"/>
+          <include name="deposit"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.inetbanking.TestCases.TC_addcustomer_003 -->
+      </class> <!-- com.inetbanking.TestCases.TC_Deposit_004 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [inetbanking] -->
